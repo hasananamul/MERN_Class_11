@@ -31,7 +31,7 @@ student.map((data) => {
 contactList.map((data, index) => {
   contact_list.innerHTML += `
   <tr>
-    <td scope="row">${index}</td>
+    <td scope="row">${index + 1}</td>
     <td scope="row">${data.Name}</td>
     <td>${data.PhoneNumber}</td>
     <td>${data.Relation}</td>
