@@ -1,0 +1,106 @@
+body {
+  font-family: cursive;
+}
+h3 {
+  margin: 0;
+}
+h4,
+h2 {
+  margin: 10px;
+}
+
+.main_row > * {
+  box-sizing: border-box;
+}
+.student_data_section,
+.devs_section,
+.phone_book_section {
+  max-width: 1365px;
+  margin: auto;
+}
+.devs_section h2,
+.student_data_section h2,
+.phone_book_section h2 {
+  text-align: center;
+  color: blueviolet;
+  text-decoration: underline;
+  font-size: 40px;
+  margin-top: 30px;
+}
+.name h2 {
+  color: brown;
+}
+.main_row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.colm {
+  width: 25%;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+}
+.colm img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+.colm:hover.colm img {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+.card {
+  margin: 10px;
+  transition: 0.4s;
+  padding: 10px;
+}
+.card:hover {
+  box-shadow: 0px 10px 20px 5px #efe9e9;
+}
+/* Student Table list  CSS */
+table,
+th,
+td {
+  border: 2px solid #12e7e7ba;
+  border-collapse: collapse;
+  padding: 8px;
+  font-size: 18px;
+}
+tr:nth-child(even) {
+  background-color: rgb(109 197 223 / 67%);
+}
+td img {
+  width: 50px;
+}
+@media (max-width: 1042px) {
+  .student_data_section,
+  .devs_section,
+  .phone_book_section {
+    max-width: 1200px;
+  }
+  .colm {
+    width: 33%;
+  }
+}
+@media (max-width: 768px) {
+  .colm img {
+    width: 150px;
+    height: 150px;
+  }
+  .devs_section h2,
+  .student_data_section h2,
+  .phone_book_section h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 490px) {
+  .colm {
+    width: 50%;
+  }
+}
+@media (max-width: 375px) {
+  .colm {
+    width: 100%;
+  }
+}

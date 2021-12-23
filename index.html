@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document Object Model</title>
+  </head>
+  <body>
+    <div class="devs_section">
+      <h2>All Developers Data</h2>
+      <div class="main_row"></div>
+      <!--main row-->
+    </div>
+    <!-- devs section-->
+    <div class="student_data_section">
+      <h2>All Students Data List</h2>
+      <div class="student_row">
+        <div class="student_table">
+          <table class="table" style="width: 100%">
+            <thead>
+              <tr style="background-color: rgb(109 197 223 / 67%)">
+                <th style="width: 5%">Roll</th>
+                <th>Student Name</th>
+                <th>Location</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th style="width: 2%">Photo</th>
+              </tr>
+            </thead>
+            <tbody class="student_list"></tbody>
+          </table>
+        </div>
+        <!--student_table-->
+      </div>
+      <!--student row-->
+    </div>
+    <!-- student_data_section-->
+    <!-- Phone book section Start-->
+    <div class="phone_book_section">
+      <h2>Contact Number List</h2>
+      <div class="contact_book">
+        <div class="contact_table">
+          <table class="table" style="width: 100%">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Phone No</th>
+                <th>Relation</th>
+                <th>Location</th>
+              </tr>
+            </thead>
+            <tbody class="contact_list"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
